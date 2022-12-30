@@ -1,3 +1,4 @@
+import GUI.MainView;
 import entities.Battle;
 import entities.Player;
 
@@ -8,11 +9,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main (String[] args) throws InterruptedException {
-
-        JFrame frame = new JFrame();
-        frame.setTitle("Simples RPG");
-        frame.setSize(800,800);
-        frame.setVisible(true);
+//        new MainView();  // don't need this right now, yet to be implemented a GUI.
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bem vindo ao Simples RPG.");
         System.out.println("Vamos começar com a criação de seu personagem.");
